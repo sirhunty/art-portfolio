@@ -5,7 +5,7 @@ html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
+  color: rgb(65, 65, 65);
 }
 
 .bgimg-1,
@@ -16,7 +16,7 @@ html {
 .bgimg-6,
 .contact {
   position: relative;
-  opacity: 0.65;
+  opacity: .75;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,7 +63,7 @@ html {
 }
 
 .caption span.border {
-  background-color: rgb(158, 158, 158);
+  background-color: rgb(54, 54, 54);
   color: #fff;
   padding: 18px;
   font-size: 25px;
