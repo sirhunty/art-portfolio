@@ -13,7 +13,8 @@ html {
 .bgimg-3,
 .bgimg-4,
 .bgimg-5,
-.bgimg-6 {
+.bgimg-6,
+.contact {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -43,14 +44,14 @@ html {
 }
 
 .bgimg-5 {
-    background-image: url("/src/public/assets/images/physical-installation.png");
-    min-height: 400px;
-  }
-  
-  .bgimg-6 {
-    background-image: url("/src/public/assets/images/azbeerenthusiastsbanner.png");
-    min-height: 700px;
-  }
+  background-image: url("/src/public/assets/images/physical-installation.png");
+  min-height: 400px;
+}
+
+.bgimg-6 {
+  background-image: url("/src/public/assets/images/azbeerenthusiastsbanner.png");
+  min-height: 700px;
+}
 
 .caption {
   position: absolute;
@@ -62,11 +63,21 @@ html {
 }
 
 .caption span.border {
-  background-color: #111;
+  background-color: rgb(158, 158, 158);
   color: #fff;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+  border: solid black;
+}
+
+.contact {
+  //   background-color: rgb(158, 158, 158);
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  //   border: solid black;
 }
 
 h3 {

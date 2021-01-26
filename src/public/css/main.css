@@ -11,7 +11,8 @@ html {
 .bgimg-3,
 .bgimg-4,
 .bgimg-5,
-.bgimg-6 {
+.bgimg-6,
+.contact {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -60,7 +61,15 @@ html {
 }
 
 .caption span.border {
-  background-color: #111;
+  background-color: #9e9e9e;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  border: solid black;
+}
+
+.contact {
   color: #fff;
   padding: 18px;
   font-size: 25px;
