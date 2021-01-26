@@ -1,11 +1,17 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -25,13 +31,23 @@ body, html {
 }
 
 .bgimg-3 {
+  background-image: url("/src/public/assets/images/Zianderthals2.png");
+  min-height: 500px;
+}
+
+.bgimg-4 {
+  background-image: url("/src/public/assets/images/Animations.png");
+  min-height: 400px;
+}
+
+.bgimg-5 {
   background-image: url("/src/public/assets/images/physical-installation.png");
   min-height: 400px;
 }
 
-.bgimg-4 {
-  background-image: url("/src/public/assets/images/azbeerenthusiastsbannerinsta.png");
-  min-height: 400px;
+.bgimg-6 {
+  background-image: url("/src/public/assets/images/azbeerenthusiastsbanner.png");
+  min-height: 700px;
 }
 
 .caption {
@@ -56,5 +72,17 @@ h3 {
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
+}
+
+.information {
+  text-align: center;
+}
+
+.divider {
+  color: #ddd;
+  background-color: #282e34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
 }
 /*# sourceMappingURL=main.css.map */
